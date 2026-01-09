@@ -1,3 +1,5 @@
+/*HOME PAGE CSS*/
+
 /*Body Styles*/
 body {
     margin: 0;
@@ -167,3 +169,84 @@ footer {
     color: #d4af37;
     margin-top: 40px;
 }
+
+/*CONTACT PAGE CSS*/
+
+h1 {
+    color: #434a98;
+    text-align: center;
+    width: 70%;
+    margin:0 auto 12px auto;
+}
+/* Container for pages */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+.container > p {
+    text-align: left;
+    width: 70%;
+    margin:auto 0 10px 0;
+    color: #062545; 
+    font-size: 17px;
+}
+.container section p {
+    text-align: left;
+    width: 70%;
+    margin: 4px 0;
+    color: #ffffff;
+}
+
+/* Section styles */
+label {
+    font-weight: bold;
+    color:#ffffff;
+    width:70%;
+    text-align:left;
+    margin: 12px auto 4px auto;
+    display: block;
+}
+input::placeholder, textarea::placeholder{
+    color:#d4af37;
+}
+
+input, textarea {
+    width: 70%;
+    padding: 8px;
+    margin: 4px auto 15px auto;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    color:#434a98;
+    display: block;
+}
+/*Submit button styling*/
+
+input[type="submit"] {
+    background-color:  #062545;
+    color: #d4af37;
+    border: 2px solid #d4af37 ;
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #434a98;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/*Footer styling*/
+footer .social a img {
+    border-radius: 50%; 
+    object-fit: cover;  
+    width: 40px;
+    height: 40px;
+}
+
