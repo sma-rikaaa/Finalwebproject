@@ -250,3 +250,137 @@ footer .social a img {
     height: 40px;
 }
 
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Page base */
+body {
+    background-color: #f2f4f8;
+    color: #ffd700; /* golden text */
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background-color: #0a3d91;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0a3d91;
+}
+
+/* MAIN BIG BOXES  */
+.section {
+    background: linear-gradient(135deg,  #ffffff,#001f3f, #001f3f);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+     box-shadow:
+        0 0 10px rgba(212, 175, 55, 0.6),
+        0 0 20px rgba(212, 175, 55, 0.4),
+        0 0 30px rgba(212, 175, 55, 0.2);
+
+    transition: box-shadow 0.3s ease;
+}
+.section:first-of-type {
+   background: linear-gradient(135deg,  #6898c5,#2e5b89, #032242);
+    border: 3px solid #d4af37; 
+    box-shadow:
+        0 0 10px rgba(212, 175, 55, 0.6),
+        0 0 20px rgba(212, 175, 55, 0.4),
+        0 0 30px rgba(212, 175, 55, 0.2);
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #001f3f;
+}
+.section:first-of-type p {
+    color: white;
+}
+
+.section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+/* MINI BOXES (Projects & Skills) */
+.box-grid{
+       display: grid;
+    grid-template-columns: repeat(3, 1fr); /* ALWAYS 3 IN A ROW */
+    gap: 20px;
+}
+.mini-box {
+    background: linear-gradient(135deg, #867d47, #c9b279);
+    color: #0a3d91;
+    padding: 15px;
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+.mini-box strong {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.mini-box p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+/* Hover effect */
+.mini-box:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+     border-color: #0a3d91; 
+     box-shadow:
+    0 0 10px rgba(104, 152, 197, 0.8),  
+    0 0 20px rgba(46, 91, 137, 0.6),     
+    0 0 30px rgba(3, 34, 66, 0.4);
+}
+
+
+/* Footer */
+footer {
+    background-color: #0a3d91;
+    color: #ffd700;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
